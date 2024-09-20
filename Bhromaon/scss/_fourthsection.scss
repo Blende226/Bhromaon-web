@@ -1,0 +1,16 @@
+.section_fourth {
+  min-height: 700px;
+  background-image: url(../images/image-4.svg);
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (max-width: 899px) {
+  .section_fourth {
+    min-height: 420px;
+  }
+}

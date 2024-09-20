@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 1115px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+}
+
+a:hover,
+a:active {
+  color: rgb(178, 178, 220);
+  font-size: larger;
+  transition: 0.3s;
+}
+
+.header-item:hover {
+  color: rgb(144, 144, 186);
+}
+button.buttons:hover {
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 5px #fff;
+  background: #00a2ff;
+}
+
+button.buttons:focus {
+  border: 2px solid #fff;
+  background: #00a2ff;
+}

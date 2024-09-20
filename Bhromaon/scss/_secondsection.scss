@@ -1,0 +1,67 @@
+.section_second {
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: "Aleo";
+  padding: 80px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // row-gap: 20px;
+}
+
+.icon-search {
+  color: #5474fd;
+  font-size: 70px;
+}
+
+.icon-circle {
+  color: #ff6363;
+  font-size: 72px;
+}
+
+.icon-thumb {
+  color: #00a2ff;
+  font-size: 74px;
+}
+
+@media (max-width: 899px) {
+  .icon-row {
+    display: block;
+    font-size: 30px;
+  }
+
+  .card-icon-line {
+    visibility: hidden;
+  }
+
+  .icon-circle {
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+
+  .card-icon-title {
+    visibility: visible;
+    margin-bottom: 20px;
+  }
+
+  .icon-thumb {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .icon-search {
+    margin-bottom: 20px;
+  }
+}

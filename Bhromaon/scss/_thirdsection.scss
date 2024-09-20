@@ -1,0 +1,66 @@
+.section_third {
+  min-height: 700px;
+  background-image: url(../images/Rectangle41445.svg);
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+}
+
+.inner--left {
+  justify-content: flex-start;
+}
+
+.inner--right {
+  justify-content: flex-end;
+}
+
+.container_about {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 47px;
+  padding-bottom: 49px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.about__name {
+  font-size: 20px;
+  font-style: 400;
+  color: #ffffff;
+}
+
+.about__title {
+  margin-top: 23px;
+  font-size: 20px;
+  font-style: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.about__description {
+  margin-top: 13px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-style: 300;
+  color: #ffffff;
+  line-height: 26px;
+}
+
+@media (max-width: 899px) {
+  .container_about {
+    width: 100%;
+    margin: 0 7px;
+  }
+
+  .section_third {
+    min-height: 420px;
+  }
+
+}
