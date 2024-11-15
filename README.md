@@ -1,8 +1,6 @@
 # Bhromaon-web
 This is a responsive website, using HTML, SASS, JavaScript
 
-# Demo
-file:///C:/Users/User/Desktop/Bhromaon/index.html
 
 # Preview
 ![Bhromaon-web-layout1](https://github.com/user-attachments/assets/58a98eba-4427-4f62-9a6d-c0b2b11005b9)
